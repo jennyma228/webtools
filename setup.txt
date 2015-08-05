@@ -1,0 +1,57 @@
+1.服务器信息
+www.cleverdog.cn     密码：asdf0987
+182.254.167.249
+
+2.在ubuntu下用证书登录cleverdog的服务器：
+mkdir ~/.ssh            		 #如果用户主目录下已经有.ssh目录，则忽略本条命令
+cp cleverdog ~/.ssh/identity    	 #将您的私钥文件(我附件寄出的)拷贝到~/.ssh目录下，并改名为identity
+chmod 600 ~/.ssh/identity               #将您的私钥文件设置权限为600
+eval `ssh-agent`			 #启动ssh-agent
+ssh-add				 #加载私钥
+ssh -l ubuntu -A 182.254.167.249              #对于ubuntu系统管理员为ubuntu；对于redhat，centos，suse用户名为root
+
+3.代码位置 git server  https://github.com/jennyma228/
+
+4.cleverdog服务器上编译goahead
+
+cd ~/code/goahead
+me               //编译
+sudo me install  //安装
+sudo goahead -v --home /etc/goahead ~/code/www/  //运行
+
+5.网站html   ~/code/www
+
+
+6.自己电脑上编译
+cd makeme
+make
+sudo make install
+
+cd sqlite3
+make
+sudo make install
+
+cd goahead
+me configure --set goahead.javascript=true --set goahead.cgi=true --set goahead.upload=true --set goahead.limitPost=5000000
+
+add sqlite3 in /build/linux-x64-debug/platform.me
+            libraries: [
+                "rt",
+                "dl", 
+                "pthread",
+                "m",
+                "sqlite3",
+            ],
+
+me
+rm build/linux-x64-debug/bin/libcrypto.a
+rm build/linux-x64-debug/bin/libssl.a
+me
+
+sudo me install
+sudo cp ./build/linux-x64-debug/bin/self.key  /etc/goahead/
+sudo cp ./build/linux-x64-debug/bin/self.crt  /etc/goahead/
+
+sudo goahead -v --home /etc/goahead ~/ubuntu/webserver/www/
+sudo goahead -v --home /etc/goahead ~/code/www/
+sudo goahead -v --home /etc/goahead ~/git/www/

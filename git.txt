@@ -1,0 +1,14 @@
+echo "# www" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jennyma228/www.git
+git push -u origin master
+
+git init --初始化项目，刚开始初始化项目的时候使用 
+git clone --从服务器上克隆到本地，如果服务器上面已经有项目了，直接使用这个命令clone到本地进行使用。 
+git status --查看版本信息 
+git add  --添加本地文件 
+git commit --提交更改 
+git push --tags --将更改推送到服务器 
+
