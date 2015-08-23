@@ -28,6 +28,7 @@ make
 sudo make install
 
 cd sqlite3
+./configure
 make
 sudo make install
 
@@ -51,7 +52,33 @@ me
 sudo me install
 sudo cp ./build/linux-x64-debug/bin/self.key  /etc/goahead/
 sudo cp ./build/linux-x64-debug/bin/self.crt  /etc/goahead/
+sudo cp src/auth.txt /etc/goahead
 
 sudo goahead -v --home /etc/goahead ~/ubuntu/webserver/www/
 sudo goahead -v --home /etc/goahead ~/code/www/
 sudo goahead -v --home /etc/goahead ~/git/www/
+
+
+
+Ubuntu Apache2修改网站的默认根目录 
+apache2的默认文档目录默认是在/var/www里面
+
+sudo gedit /etc/apache2/sites-enabled/000-default.conf
+
+在文档中找到 DocumentRoot 在后面修改你要放置网页文件的目录。
+
+
+Ubuntu下Apache重启错误:Could not reliably determine解决  
+
+错误信息：
+apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1 for ServerName
+
+解决方法：
+sudo gedit /etc/apache2/apache2.conf
+
+在文件后面加上:
+#Server Name
+ServerName 127.0.0.1
+
+
+
