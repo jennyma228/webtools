@@ -59,6 +59,29 @@ sudo goahead -v --home /etc/goahead ~/code/www/
 sudo goahead -v --home /etc/goahead ~/git/www/
 
 
+if meet error
+Command failure: build/linux-x86-debug/bin/libgo.so: undefined reference to `zError'
+build/linux-x86-debug/bin/libgo.so: undefined reference to `inflateEnd'
+build/linux-x86-debug/bin/libgo.so: undefined reference to `deflate'
+build/linux-x86-debug/bin/libgo.so: undefined reference to `deflateInit_'
+build/linux-x86-debug/bin/libgo.so: undefined reference to `inflate'
+build/linux-x86-debug/bin/libgo.so: undefined reference to `deflateEnd'
+build/linux-x86-debug/bin/libgo.so: undefined reference to `inflateInit_'
+collect2: ld returned 1 exit status
+
+please add libz in platform.me
+add sqlite3 in /build/linux-x64-debug/platform.me
+            libraries: [
+                "z",
+                "rt",
+                "dl", 
+                "pthread",
+                "m",
+                "sqlite3",
+            ],
+
+
+
 
 Ubuntu Apache2修改网站的默认根目录 
 apache2的默认文档目录默认是在/var/www里面
@@ -80,5 +103,13 @@ sudo gedit /etc/apache2/apache2.conf
 #Server Name
 ServerName 127.0.0.1
 
+find /var/www -type d -exec chmod 755 {} \;
+find /var/www -type f -exec chmod 644 {} \;
 
+
+ubuntu 14.04中php插件mcrypt无法正常启用怎么办
+sudo apt-get install php5-mcrypt libmcrypt4 libmcrypt-dev
+cd /etc/php5/apache2/conf.d/
+sudo ln -s ../../mods-available/mcrypt.ini ./20-mcrypt.ini
+sudo service apache2 restart
 
