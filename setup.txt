@@ -113,3 +113,12 @@ cd /etc/php5/apache2/conf.d/
 sudo ln -s ../../mods-available/mcrypt.ini ./20-mcrypt.ini
 sudo service apache2 restart
 
+install ffmpeg
+sudo apt-get install yasm
+php的exec函数的可以参考：php中使用exec,system
+ffmpeg -i video.mp4 -y -f mjpeg -ss 3 -t 0.004 -s 320x240 test.jpg
+
+MP3转换AMR： ffmpeg -i 1.mp3 -ac 1 -ar 8000 1.amr
+AMR转换MP3： ffmpeg -i 1.amr 1.mp3
+
+
