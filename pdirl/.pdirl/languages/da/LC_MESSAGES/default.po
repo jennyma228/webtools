@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl 1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2010-01-12 22:42+0000\n"
+"Last-Translator: René Züwig <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "seconds"
+msgstr "sekunder"
+
+msgid "second"
+msgstr "sekund"
+
+msgid "minutes"
+msgstr "minutter"
+
+msgid "minute"
+msgstr "minut"
+
+msgid "hours"
+msgstr "timer"
+
+msgid "hour"
+msgstr "time"
+
+msgid "days"
+msgstr "dage"
+
+msgid "day"
+msgstr "dag"
+
+msgid "weeks"
+msgstr "uger"
+
+msgid "week"
+msgstr "uge"
+
+msgid "months"
+msgstr "måneder"
+
+msgid "month"
+msgstr "måned"
+
+msgid "years"
+msgstr "år"
+
+msgid "year"
+msgstr "år"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr "Denne mappe indeholder %s file(r) med en størrelsepå i alt: %s %s."
+
+msgid "This directory contains no files."
+msgstr "Denne mappe indeholder ingen filer."
+
+msgid "%d %s ago"
+msgstr "%d %s siden"
+
+msgid "Directory listing for "
+msgstr "Mappe visning for "
+
+msgid "Parent Directory"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Home Directory"
+msgstr ""
+
+msgid "Reload"
+msgstr ""
+
+msgid "Search..."
+msgstr "Søg..."
+
+msgid "Search for \"%s\" in %s"
+msgstr "Søg efter \"%s\" i %s"
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "Fandt %s file(r) med en størrelse på i alt %s %s."
+
+msgid "No search result."
+msgstr "Din søgning gav ingen resultater."
+
+msgid "not accesible"
+msgstr ""
+
+msgid "Audio file"
+msgstr ""
+
+msgid "Image file"
+msgstr ""
+
+msgid "Application"
+msgstr ""
+
+msgid "Web document"
+msgstr ""
+
+msgid "Text document"
+msgstr ""
+
+msgid "Directory"
+msgstr ""
+
+msgid "Compressed package"
+msgstr ""
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Last modification"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "%s elements"
+msgstr ""

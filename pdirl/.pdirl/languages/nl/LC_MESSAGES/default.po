@@ -1,0 +1,135 @@
+# Dutch translation for pdirl
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the pdirl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2010-01-23 20:18+0000\n"
+"Last-Translator: cumulus007 <Unknown>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+
+msgid "seconds"
+msgstr "seconden"
+
+msgid "second"
+msgstr "seconde"
+
+msgid "minutes"
+msgstr "minuten"
+
+msgid "minute"
+msgstr "minuut"
+
+msgid "hours"
+msgstr "uren"
+
+msgid "hour"
+msgstr "uur"
+
+msgid "days"
+msgstr "dagen"
+
+msgid "day"
+msgstr "dag"
+
+msgid "weeks"
+msgstr "weken"
+
+msgid "week"
+msgstr "week"
+
+msgid "months"
+msgstr "maanden"
+
+msgid "month"
+msgstr "maand"
+
+msgid "years"
+msgstr "jaren"
+
+msgid "year"
+msgstr "jaar"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr "Deze directory bevat %s element(en) totaal %s %s in grootte."
+
+msgid "This directory contains no files."
+msgstr "Deze directory bevat geen bestanden."
+
+msgid "%d %s ago"
+msgstr "%d %s geleden"
+
+msgid "Directory listing for "
+msgstr "Mapweergave voor "
+
+msgid "Parent Directory"
+msgstr "Hogere map"
+
+msgid "Back"
+msgstr "Terug"
+
+msgid "Home Directory"
+msgstr "Persoonlijke map"
+
+msgid "Reload"
+msgstr "Herladen"
+
+msgid "Search..."
+msgstr "Zoeken..."
+
+msgid "Search for \"%s\" in %s"
+msgstr "Zoeken voor \"%s\" in %s"
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "%s item(s) gevonden met een totaalgrootte van %s %s."
+
+msgid "No search result."
+msgstr "Geen zoekresultaten."
+
+msgid "not accesible"
+msgstr "niet toegankelijk"
+
+msgid "Audio file"
+msgstr "Audiobestand"
+
+msgid "Image file"
+msgstr "Afbeelding"
+
+msgid "Application"
+msgstr "Toepassing"
+
+msgid "Web document"
+msgstr "Webdocument"
+
+msgid "Text document"
+msgstr "Tekstdocument"
+
+msgid "Directory"
+msgstr "Map"
+
+msgid "Compressed package"
+msgstr "Ingepakt pakket"
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Last modification"
+msgstr "Laatst gewijzigd"
+
+msgid "Size"
+msgstr "Grootte"
+
+msgid "%s elements"
+msgstr ""

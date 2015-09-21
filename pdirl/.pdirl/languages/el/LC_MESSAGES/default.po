@@ -1,0 +1,135 @@
+# Greek translation for pdirl
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the pdirl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2011-02-28 19:35+0000\n"
+"Last-Translator: Maraslis Konstantinos <Unknown>\n"
+"Language-Team: Greek <el@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+
+msgid "seconds"
+msgstr "δευτερόλεπτα"
+
+msgid "second"
+msgstr "δευτερόλεπτο"
+
+msgid "minutes"
+msgstr "λεπτά"
+
+msgid "minute"
+msgstr "λεπτό"
+
+msgid "hours"
+msgstr "ώρες"
+
+msgid "hour"
+msgstr "ώρα"
+
+msgid "days"
+msgstr "ημέρες"
+
+msgid "day"
+msgstr "ημέρα"
+
+msgid "weeks"
+msgstr "εβδομάδες"
+
+msgid "week"
+msgstr "εβδομάδα"
+
+msgid "months"
+msgstr "μήνες"
+
+msgid "month"
+msgstr "μήνας"
+
+msgid "years"
+msgstr "έτη"
+
+msgid "year"
+msgstr "έτος"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr "Ο φάκελος περιέχει %s στοιχείο/α με συνολικό μέγεθος %s %s."
+
+msgid "This directory contains no files."
+msgstr "Ο φάκελος δεν περιέχει αρχεία."
+
+msgid "%d %s ago"
+msgstr "%d %s πριν"
+
+msgid "Directory listing for "
+msgstr "Κατάλογος φακέλου για το "
+
+msgid "Parent Directory"
+msgstr "Γονικός κατάλογος"
+
+msgid "Back"
+msgstr "Πίσω"
+
+msgid "Home Directory"
+msgstr "Αρχικός φάκελος"
+
+msgid "Reload"
+msgstr "Ανανέωση"
+
+msgid "Search..."
+msgstr "Αναζήτηση…"
+
+msgid "Search for \"%s\" in %s"
+msgstr "Αναζήτηση του \"%s\" στο %s"
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "Βρέθηκαν %s στοιχείο/α με συνολικό μέγεθος %s %s."
+
+msgid "No search result."
+msgstr "Δεν βρέθηκαν αποτελέσματα."
+
+msgid "not accesible"
+msgstr "μη προσβάσιμο"
+
+msgid "Audio file"
+msgstr "Αρχείο ήχου"
+
+msgid "Image file"
+msgstr "Αρχείο εικόνας"
+
+msgid "Application"
+msgstr "Εφαρμογή"
+
+msgid "Web document"
+msgstr "Αρχείο ιστού"
+
+msgid "Text document"
+msgstr "Έγγραφο κειμένου"
+
+msgid "Directory"
+msgstr "Φάκελος"
+
+msgid "Compressed package"
+msgstr "Συμπιεσμένο αρχείο"
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr "Όνομα"
+
+msgid "Last modification"
+msgstr "Τελευταία τροποποίηση"
+
+msgid "Size"
+msgstr "Μέγεθος"
+
+msgid "%s elements"
+msgstr ""

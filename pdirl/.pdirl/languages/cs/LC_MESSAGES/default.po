@@ -1,0 +1,135 @@
+# Czech translation for pdirl
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the pdirl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2010-02-01 23:20+0000\n"
+"Last-Translator: c00ba <Unknown>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+
+msgid "seconds"
+msgstr "sekund"
+
+msgid "second"
+msgstr "sekunda"
+
+msgid "minutes"
+msgstr "minut"
+
+msgid "minute"
+msgstr "minuta"
+
+msgid "hours"
+msgstr "hodin"
+
+msgid "hour"
+msgstr "hodina"
+
+msgid "days"
+msgstr "dny/dní"
+
+msgid "day"
+msgstr "den"
+
+msgid "weeks"
+msgstr "týdnů"
+
+msgid "week"
+msgstr "týden"
+
+msgid "months"
+msgstr "měsíců"
+
+msgid "month"
+msgstr "měsíc"
+
+msgid "years"
+msgstr "let"
+
+msgid "year"
+msgstr "rok"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr "Tato složka obsahuje %s položek o celkové velikosti %s %s."
+
+msgid "This directory contains no files."
+msgstr "Tato složka neobsahuje žádné soubory."
+
+msgid "%d %s ago"
+msgstr "před %d %s"
+
+msgid "Directory listing for "
+msgstr "Výpis složky "
+
+msgid "Parent Directory"
+msgstr "Nadřazená složka"
+
+msgid "Back"
+msgstr "Zpět"
+
+msgid "Home Directory"
+msgstr "Domovská složka"
+
+msgid "Reload"
+msgstr "Znovu načíst"
+
+msgid "Search..."
+msgstr "Vyhledat..."
+
+msgid "Search for \"%s\" in %s"
+msgstr "Hledat \"%s\" v %s"
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "Nalezeno %s prvků o celkové velikosti %s %s ."
+
+msgid "No search result."
+msgstr "Žádný výsledek hledání."
+
+msgid "not accesible"
+msgstr "nepřístupné"
+
+msgid "Audio file"
+msgstr "Zvukový soubor"
+
+msgid "Image file"
+msgstr "Obrázkový soubor"
+
+msgid "Application"
+msgstr "Aplikace"
+
+msgid "Web document"
+msgstr "Webový dokument"
+
+msgid "Text document"
+msgstr "Textový dokument"
+
+msgid "Directory"
+msgstr "Složka"
+
+msgid "Compressed package"
+msgstr "Komprimovaný archiv"
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr "Název"
+
+msgid "Last modification"
+msgstr "Poslední změna"
+
+msgid "Size"
+msgstr "Velikost"
+
+msgid "%s elements"
+msgstr ""

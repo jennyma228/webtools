@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl 1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2012-01-10 16:21+0000\n"
+"Last-Translator: Tudorancea Andrei <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "seconds"
+msgstr "Secunde"
+
+msgid "second"
+msgstr "secunda"
+
+msgid "minutes"
+msgstr "minute"
+
+msgid "minute"
+msgstr "minut"
+
+msgid "hours"
+msgstr "ore"
+
+msgid "hour"
+msgstr "ora"
+
+msgid "days"
+msgstr "zile"
+
+msgid "day"
+msgstr "zi"
+
+msgid "weeks"
+msgstr "Saptamani"
+
+msgid "week"
+msgstr "Saptamana"
+
+msgid "months"
+msgstr "luni"
+
+msgid "month"
+msgstr "luna"
+
+msgid "years"
+msgstr "ani"
+
+msgid "year"
+msgstr "an"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr "Acest director contine %s fisiere cu un total de %s %s."
+
+msgid "This directory contains no files."
+msgstr "Acest director nu contine fisiere."
+
+msgid "%d %s ago"
+msgstr "%d %s vechime"
+
+msgid "Directory listing for "
+msgstr "Continutul directorului "
+
+msgid "Parent Directory"
+msgstr "Inapoi ..."
+
+msgid "Back"
+msgstr "inapoi"
+
+msgid "Home Directory"
+msgstr "Director Acasa"
+
+msgid "Reload"
+msgstr "Reincarca"
+
+msgid "Search..."
+msgstr "Cautare ..."
+
+msgid "Search for \"%s\" in %s"
+msgstr "Cautare dupa \"%s\" in %s"
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "%s fisiere gasite cu dimensiunea totala de %s %s."
+
+msgid "No search result."
+msgstr "Nu s-au gasit fisiere conform cautarii."
+
+msgid "not accesible"
+msgstr "fara acces"
+
+msgid "Audio file"
+msgstr "Fisier audio"
+
+msgid "Image file"
+msgstr "Fisier imagine"
+
+msgid "Application"
+msgstr "Aplicatie"
+
+msgid "Web document"
+msgstr "Document Web"
+
+msgid "Text document"
+msgstr "Document Text"
+
+msgid "Directory"
+msgstr "Director"
+
+msgid "Compressed package"
+msgstr "Fisier arhivat"
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr "Nume"
+
+msgid "Last modification"
+msgstr "Ultima modificare"
+
+msgid "Size"
+msgstr "Marime"
+
+msgid "%s elements"
+msgstr ""

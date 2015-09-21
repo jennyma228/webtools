@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*) %{REQUEST_URI}/ [R=301,L]
+RewriteCond %{REQUEST_FILENAME} -d [NC]
+RewriteCond %{REQUEST_FILENAME} !-f [NC]
+RewriteRule ^(.*)$ index.php?%{QUERY_STRING}&directory=$1&modrewrite=1 [QSA]

@@ -1,0 +1,135 @@
+# Polish translation for pdirl
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the pdirl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2010-04-27 19:07+0000\n"
+"Last-Translator: Michał Parniak <Unknown>\n"
+"Language-Team: Polish <pl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+
+msgid "seconds"
+msgstr "sekund(y)"
+
+msgid "second"
+msgstr "sekunda"
+
+msgid "minutes"
+msgstr "minut(y)"
+
+msgid "minute"
+msgstr "minuta"
+
+msgid "hours"
+msgstr "godzin(y)"
+
+msgid "hour"
+msgstr "godzina"
+
+msgid "days"
+msgstr "dni"
+
+msgid "day"
+msgstr "dzień"
+
+msgid "weeks"
+msgstr "tygodni(e)"
+
+msgid "week"
+msgstr "tydzień"
+
+msgid "months"
+msgstr "miesięcy(ące)"
+
+msgid "month"
+msgstr "miesiąc"
+
+msgid "years"
+msgstr "lat(a)"
+
+msgid "year"
+msgstr "rok"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr "Ten katalog zawiera %s elementów, łączny rozmiar %s %s."
+
+msgid "This directory contains no files."
+msgstr "Ten katalog nie zawiera żadnych plików."
+
+msgid "%d %s ago"
+msgstr "%d %s temu"
+
+msgid "Directory listing for "
+msgstr "Katalog "
+
+msgid "Parent Directory"
+msgstr "Katalog nadrzędny"
+
+msgid "Back"
+msgstr "Wstecz"
+
+msgid "Home Directory"
+msgstr "Katalog Domowy"
+
+msgid "Reload"
+msgstr "Odśwież"
+
+msgid "Search..."
+msgstr "Szukaj..."
+
+msgid "Search for \"%s\" in %s"
+msgstr "Szkukaj \"%s\" w %s"
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "Znaleziono %s elementów, łączny rozmiar %s %s."
+
+msgid "No search result."
+msgstr "Brak wyników wyszukiwania."
+
+msgid "not accesible"
+msgstr "nieosiągalne"
+
+msgid "Audio file"
+msgstr "Plik Audio"
+
+msgid "Image file"
+msgstr "Obraz"
+
+msgid "Application"
+msgstr "Program"
+
+msgid "Web document"
+msgstr "Dokument sieciowy"
+
+msgid "Text document"
+msgstr "Dokument tekstowy"
+
+msgid "Directory"
+msgstr "Katalog"
+
+msgid "Compressed package"
+msgstr "Skompresowany pakiet"
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Last modification"
+msgstr "Ostatnia modyfikacja"
+
+msgid "Size"
+msgstr "Rozmiar"
+
+msgid "%s elements"
+msgstr ""

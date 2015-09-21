@@ -1,0 +1,135 @@
+# Hungarian translation for pdirl
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the pdirl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2010-10-31 13:15+0000\n"
+"Last-Translator: meneruwa <Unknown>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+
+msgid "seconds"
+msgstr "másodpercek"
+
+msgid "second"
+msgstr "másodperc"
+
+msgid "minutes"
+msgstr "percek"
+
+msgid "minute"
+msgstr "perc"
+
+msgid "hours"
+msgstr "órák"
+
+msgid "hour"
+msgstr "óra"
+
+msgid "days"
+msgstr "napok"
+
+msgid "day"
+msgstr "nap"
+
+msgid "weeks"
+msgstr "hetek"
+
+msgid "week"
+msgstr "hét"
+
+msgid "months"
+msgstr "hónapok"
+
+msgid "month"
+msgstr "hónap"
+
+msgid "years"
+msgstr "évek"
+
+msgid "year"
+msgstr "év"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr "Ez a könyvtár %s elemet tartalmaz, összesen %s %s méretben"
+
+msgid "This directory contains no files."
+msgstr "Ez a könyvtár nem tartalmaz fájlokat"
+
+msgid "%d %s ago"
+msgstr "%d %s ezelőtt"
+
+msgid "Directory listing for "
+msgstr "Könyvtárak listázása "
+
+msgid "Parent Directory"
+msgstr "Alapértelmezett könyvtár"
+
+msgid "Back"
+msgstr "vissza"
+
+msgid "Home Directory"
+msgstr "Kezdő mappa"
+
+msgid "Reload"
+msgstr "Újratöltés"
+
+msgid "Search..."
+msgstr "Keresés..."
+
+msgid "Search for \"%s\" in %s"
+msgstr "Keresés \"%s\" vagy %s"
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "%s található elem(ek), összesen% s% s méretűek."
+
+msgid "No search result."
+msgstr "Nem találtam megfelelő találatot"
+
+msgid "not accesible"
+msgstr "nem elérhető"
+
+msgid "Audio file"
+msgstr "Audió"
+
+msgid "Image file"
+msgstr "Kép"
+
+msgid "Application"
+msgstr "Alkalmazás"
+
+msgid "Web document"
+msgstr "Web dokumentum"
+
+msgid "Text document"
+msgstr "Szöveg dokumentum"
+
+msgid "Directory"
+msgstr "Könyvtár"
+
+msgid "Compressed package"
+msgstr "Tömörített archívum"
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr "Név"
+
+msgid "Last modification"
+msgstr "Utoljára módosítva"
+
+msgid "Size"
+msgstr "Méret"
+
+msgid "%s elements"
+msgstr ""

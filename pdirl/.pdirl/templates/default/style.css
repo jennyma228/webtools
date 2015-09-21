@@ -1,0 +1,101 @@
+@CHARSET "UTF-8"; 
+* {
+	padding:0px; margin:0px; 
+	}
+	
+body {
+	font-family: Helvetica; font-size: 12px; color: #333; background: #FFF3CF; 
+	}
+img {
+	vertical-align: bottom; padding: 0 3px 0 0; border: 0px none; 
+	}
+a {
+	color: #857661; font-size: inherit; text-decoration: none; 
+	}
+a:hover {
+	color: rgb(60,60,60); 
+	}
+h1 {
+	padding-left: 0; margin-bottom: 10px; font-size: 21px; font-weight: bold;  color: #FFF3CF; 
+	}
+table {
+	width: 98%;
+	}
+table td {
+	font-size: 16px; padding: 5px; vertical-align: middle; 
+	}
+table td img.locked {
+	margin-left: -22px; 
+	}
+table td small {
+	display: block; color: #CFC98E; padding-left: 30px; 
+	}
+table tr {
+	background: #ffffff; width: 70%; color:#857661; 
+	}
+table thead tr td {
+	background: #FFF9DF; font-size: 12px; padding: 0px;
+	}
+table thead tr td a {
+	font-size: 12px; display: block; padding: 5px;
+	}
+table thead tr td a:hover {
+	background-color: #F6E49C;
+	}
+table tr:hover {
+	background-color: #FFF9DF; 
+	}
+table td.size, table td.mtime {
+	white-space: nowrap; width: 12%; font-size: 14px; 
+	}
+table td.mtime {
+	width: 18%; 
+	}
+div.total {
+	background: #f8f8f8; padding: 2px; 
+	}
+#headerwrap {
+	background: #083844; padding: 10px 10px 5px; border-bottom: 5px solid #D6C47C; 
+	}
+#header {
+	width: 100%; margin: 0px auto; color: #FFF3CF; 
+	}
+#header a {
+	font-size:inherit; color: #DFD999; 
+	}
+#header a:hover {
+	color: #CFC98E; 
+	}
+#header ul {
+	list-style-type: none; 
+	}
+#header ul li {
+	float: left; margin-right: 5px; font-size: 15px; 
+	}
+#header ul a {
+	font-size: inherit; 
+	}
+#contentwrap {
+	margin: 20px auto; padding: 0; width: 99%; box-shadow: 0px 0px 10px #999;
+	}
+#nothing {
+	background: #ffffff; color:#857661; font-size: 16px; padding: 10px; 
+	}
+#footer {
+	margin: 20px auto; width: 700px; color: #857661; font-size:12px; margin-top:10px; padding-left: 10px; 
+	}
+#footer small a {
+	font-size: inherit; 
+	}
+#search {
+	width: 100px; border: 0px none; border-bottom: solid 1px #999; color: #999; padding: 2px; height: 14px; font-size:12px; background: transparent; 
+	}
+.asc, .desc {
+	padding-left:15px; background-repeat: no-repeat;
+}
+.asc {
+	background-image: url('../../icons/default/asc.gif'); background-position: 3px 10px;
+}
+.desc {
+	background-image: url('../../icons/default/desc.gif'); background-position: 3px 8px;
+}

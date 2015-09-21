@@ -1,0 +1,135 @@
+# Chinese (Simplified) translation for pdirl
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the pdirl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2010-04-27 07:17+0000\n"
+"Last-Translator: surftheair <Unknown>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+
+msgid "seconds"
+msgstr "秒"
+
+msgid "second"
+msgstr "秒"
+
+msgid "minutes"
+msgstr "分钟"
+
+msgid "minute"
+msgstr "分钟"
+
+msgid "hours"
+msgstr "小时"
+
+msgid "hour"
+msgstr "小时"
+
+msgid "days"
+msgstr "天"
+
+msgid "day"
+msgstr "天"
+
+msgid "weeks"
+msgstr "星期"
+
+msgid "week"
+msgstr "星期"
+
+msgid "months"
+msgstr "个月"
+
+msgid "month"
+msgstr "个月"
+
+msgid "years"
+msgstr "年"
+
+msgid "year"
+msgstr "年"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr "吃文件夹包含 %s 个文件，共 %s %s"
+
+msgid "This directory contains no files."
+msgstr "此文件不包含任何文件"
+
+msgid "%d %s ago"
+msgstr "%d %s 之前"
+
+msgid "Directory listing for "
+msgstr "文件列表 "
+
+msgid "Parent Directory"
+msgstr "上级文件夹"
+
+msgid "Back"
+msgstr "后退"
+
+msgid "Home Directory"
+msgstr "主目录"
+
+msgid "Reload"
+msgstr "重新载入"
+
+msgid "Search..."
+msgstr "搜索..."
+
+msgid "Search for \"%s\" in %s"
+msgstr "在 %s 中搜索 \"%s\""
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "找到 % 个文件，共 %s %s 大小"
+
+msgid "No search result."
+msgstr "没有搜索结果"
+
+msgid "not accesible"
+msgstr "无法获取"
+
+msgid "Audio file"
+msgstr "音频文件"
+
+msgid "Image file"
+msgstr "图像文件"
+
+msgid "Application"
+msgstr "应用程序"
+
+msgid "Web document"
+msgstr "网页文件"
+
+msgid "Text document"
+msgstr "文本文件"
+
+msgid "Directory"
+msgstr "文件夹"
+
+msgid "Compressed package"
+msgstr "压缩文件"
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Last modification"
+msgstr "修改时间"
+
+msgid "Size"
+msgstr "文件大小"
+
+msgid "%s elements"
+msgstr ""

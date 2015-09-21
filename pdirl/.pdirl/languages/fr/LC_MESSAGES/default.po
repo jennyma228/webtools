@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl 1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2010-06-27 21:30+0000\n"
+"Last-Translator: Benoît Leudet <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "seconds"
+msgstr "secondes"
+
+msgid "second"
+msgstr "seconde"
+
+msgid "minutes"
+msgstr "minutes"
+
+msgid "minute"
+msgstr "minute"
+
+msgid "hours"
+msgstr "heures"
+
+msgid "hour"
+msgstr "heure"
+
+msgid "days"
+msgstr "jours"
+
+msgid "day"
+msgstr "jour"
+
+msgid "weeks"
+msgstr "semaines"
+
+msgid "week"
+msgstr "semaine"
+
+msgid "months"
+msgstr "mois"
+
+msgid "month"
+msgstr "mois"
+
+msgid "years"
+msgstr "années"
+
+msgid "year"
+msgstr "an"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr "Ce dossier contient %s fichier(s) pour un total de %s %s."
+
+msgid "This directory contains no files."
+msgstr "Ce dossier ne contient pas de fichiers."
+
+msgid "%d %s ago"
+msgstr "Il y a %d %s"
+
+msgid "Directory listing for "
+msgstr "Contenu du dossier "
+
+msgid "Parent Directory"
+msgstr "dossier sup&eacute;rieur"
+
+msgid "Back"
+msgstr "Précédent"
+
+msgid "Home Directory"
+msgstr "Dossier racine"
+
+msgid "Reload"
+msgstr "Actualiser"
+
+msgid "Search..."
+msgstr "Chercher..."
+
+msgid "Search for \"%s\" in %s"
+msgstr "Chercher \"%s\" dans %s"
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "%s fichier(s) trouvé(s) pour un total de %s %s."
+
+msgid "No search result."
+msgstr "Pas de résultat"
+
+msgid "not accesible"
+msgstr "inaccessible"
+
+msgid "Audio file"
+msgstr "Fichier audio"
+
+msgid "Image file"
+msgstr "Fichier image"
+
+msgid "Application"
+msgstr "Application"
+
+msgid "Web document"
+msgstr "Document Web"
+
+msgid "Text document"
+msgstr "Fichier texte"
+
+msgid "Directory"
+msgstr "Dossier"
+
+msgid "Compressed package"
+msgstr "Fichier compressé"
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Last modification"
+msgstr "Dernière modification"
+
+msgid "Size"
+msgstr "Taille"
+
+msgid "%s elements"
+msgstr ""

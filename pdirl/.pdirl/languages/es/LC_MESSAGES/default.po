@@ -1,0 +1,135 @@
+# Spanish translation for pdirl
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the pdirl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2010-03-18 21:54+0000\n"
+"Last-Translator: Ktl__XV <Unknown>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+
+msgid "seconds"
+msgstr "segundos"
+
+msgid "second"
+msgstr "segundo"
+
+msgid "minutes"
+msgstr "minutos"
+
+msgid "minute"
+msgstr "minuto"
+
+msgid "hours"
+msgstr "horas"
+
+msgid "hour"
+msgstr "hora"
+
+msgid "days"
+msgstr "días"
+
+msgid "day"
+msgstr "día"
+
+msgid "weeks"
+msgstr "semanas"
+
+msgid "week"
+msgstr "semana"
+
+msgid "months"
+msgstr "meses"
+
+msgid "month"
+msgstr "mes"
+
+msgid "years"
+msgstr "años"
+
+msgid "year"
+msgstr "año"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr "Este directorio contiene %s elemento(s) sumando %s %s en tamaño."
+
+msgid "This directory contains no files."
+msgstr "Este directorio no contiene archivos."
+
+msgid "%d %s ago"
+msgstr "hace %d %s"
+
+msgid "Directory listing for "
+msgstr "Listado de directorio para "
+
+msgid "Parent Directory"
+msgstr "Carpeta Superior"
+
+msgid "Back"
+msgstr "Atrás"
+
+msgid "Home Directory"
+msgstr "Directorio Personal"
+
+msgid "Reload"
+msgstr "Actualizar"
+
+msgid "Search..."
+msgstr "Buscar..."
+
+msgid "Search for \"%s\" in %s"
+msgstr "Buscar \"%s\" en %s"
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "Encontrados %s elemento(s) sumando %s %s en tamaño."
+
+msgid "No search result."
+msgstr "No hay resultados para la busqueda."
+
+msgid "not accesible"
+msgstr "no accessible"
+
+msgid "Audio file"
+msgstr "Archivo de audio"
+
+msgid "Image file"
+msgstr "Archivo de imagen"
+
+msgid "Application"
+msgstr "Aplicación"
+
+msgid "Web document"
+msgstr "Documento web"
+
+msgid "Text document"
+msgstr "Documento de texto"
+
+msgid "Directory"
+msgstr "Directorio"
+
+msgid "Compressed package"
+msgstr "Archivo comprimido"
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Last modification"
+msgstr "Última modificación"
+
+msgid "Size"
+msgstr "Tamaño"
+
+msgid "%s elements"
+msgstr ""

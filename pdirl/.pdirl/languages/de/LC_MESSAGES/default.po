@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl 1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2012-05-17 18:49+0000\n"
+"Last-Translator: René Züwig <Unknown>\n"
+"Language-Team: René Züwig <rene@newroots.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "seconds"
+msgstr "Sekunden"
+
+msgid "second"
+msgstr "Sekunde"
+
+msgid "minutes"
+msgstr "Minuten"
+
+msgid "minute"
+msgstr "Minute"
+
+msgid "hours"
+msgstr "Stunden"
+
+msgid "hour"
+msgstr "Stunde"
+
+msgid "days"
+msgstr "Tage"
+
+msgid "day"
+msgstr "Tag"
+
+msgid "weeks"
+msgstr "Wochen"
+
+msgid "week"
+msgstr "Woche"
+
+msgid "months"
+msgstr "Monate"
+
+msgid "month"
+msgstr "Monat"
+
+msgid "years"
+msgstr "Jahre"
+
+msgid "year"
+msgstr "Jahr"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr ""
+"Dieses Verzeichnis beinhaltet %s Element(e) mit der Gesamtgröße von %s %s."
+
+msgid "This directory contains no files."
+msgstr "Dieses Verzeichnis beinhaltet keine Dateien."
+
+msgid "%d %s ago"
+msgstr "vor %d %s"
+
+msgid "Directory listing for "
+msgstr "Verzeichnisinhalt von "
+
+msgid "Parent Directory"
+msgstr "Übergeordneter Ordner"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Home Directory"
+msgstr "Heimverzeichnis"
+
+msgid "Reload"
+msgstr "Aktualisieren"
+
+msgid "Search..."
+msgstr "Suchen..."
+
+msgid "Search for \"%s\" in %s"
+msgstr "Suche nach \"%s\" in %s"
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "%s Element(e) mit der Gesamtgröße von %s %s gefunden."
+
+msgid "No search result."
+msgstr "Keine Suchergebnisse."
+
+msgid "not accesible"
+msgstr "nicht erreichbar"
+
+msgid "Audio file"
+msgstr "Audio-Datei"
+
+msgid "Image file"
+msgstr "Bild-Datei"
+
+msgid "Application"
+msgstr "Ausführbares Programm"
+
+msgid "Web document"
+msgstr "Web-Dokument"
+
+msgid "Text document"
+msgstr "Text-Dokument"
+
+msgid "Directory"
+msgstr "Verzeichnis"
+
+msgid "Compressed package"
+msgstr "Komprimiertes Archiv"
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Last modification"
+msgstr "Letzte Änderung"
+
+msgid "Size"
+msgstr "Größe"
+
+msgid "%s elements"
+msgstr ""

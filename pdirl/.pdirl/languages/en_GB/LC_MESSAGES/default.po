@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl 1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2010-01-12 22:52+0000\n"
+"Last-Translator: René Züwig <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "seconds"
+msgstr "seconds"
+
+msgid "second"
+msgstr "second"
+
+msgid "minutes"
+msgstr "minutes"
+
+msgid "minute"
+msgstr "minute"
+
+msgid "hours"
+msgstr "hours"
+
+msgid "hour"
+msgstr "hour"
+
+msgid "days"
+msgstr "days"
+
+msgid "day"
+msgstr "day"
+
+msgid "weeks"
+msgstr "weeks"
+
+msgid "week"
+msgstr "week"
+
+msgid "months"
+msgstr "months"
+
+msgid "month"
+msgstr "month"
+
+msgid "years"
+msgstr "years"
+
+msgid "year"
+msgstr "year"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr "This directory contains %s element(s) totalling %s %s in size."
+
+msgid "This directory contains no files."
+msgstr "This directory contains no files."
+
+msgid "%d %s ago"
+msgstr "%d %s ago"
+
+msgid "Directory listing for "
+msgstr "Directory listing for "
+
+msgid "Parent Directory"
+msgstr "Parent Directory"
+
+msgid "Back"
+msgstr "Back"
+
+msgid "Home Directory"
+msgstr "Home Directory"
+
+msgid "Reload"
+msgstr "Reload"
+
+msgid "Search..."
+msgstr "Search..."
+
+msgid "Search for \"%s\" in %s"
+msgstr "Search for \"%s\" in %s"
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "Found %s element(s) totalling %s %s in size."
+
+msgid "No search result."
+msgstr "No search result."
+
+msgid "not accesible"
+msgstr "not accesible"
+
+msgid "Audio file"
+msgstr "Audio file"
+
+msgid "Image file"
+msgstr "Image file"
+
+msgid "Application"
+msgstr "Application"
+
+msgid "Web document"
+msgstr "Web document"
+
+msgid "Text document"
+msgstr "Text document"
+
+msgid "Directory"
+msgstr "Directory"
+
+msgid "Compressed package"
+msgstr "Compressed package"
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Last modification"
+msgstr "Last modification"
+
+msgid "Size"
+msgstr "Size"
+
+msgid "%s elements"
+msgstr ""

@@ -1,0 +1,135 @@
+# Turkish translation for pdirl
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the pdirl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pdirl\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-05-17 20:24+0000\n"
+"PO-Revision-Date: 2011-01-22 22:55+0000\n"
+"Last-Translator: Tubilmer.com.tr <Unknown>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-05-18 00:46+0000\n"
+"X-Generator: Launchpad (build 15259)\n"
+
+msgid "seconds"
+msgstr "saniye"
+
+msgid "second"
+msgstr "saniye"
+
+msgid "minutes"
+msgstr "dakika"
+
+msgid "minute"
+msgstr "dakika"
+
+msgid "hours"
+msgstr "saat"
+
+msgid "hour"
+msgstr "saat"
+
+msgid "days"
+msgstr "gün"
+
+msgid "day"
+msgstr "gün"
+
+msgid "weeks"
+msgstr "hafta"
+
+msgid "week"
+msgstr "hafta"
+
+msgid "months"
+msgstr "ay"
+
+msgid "month"
+msgstr "ay"
+
+msgid "years"
+msgstr "yıl"
+
+msgid "year"
+msgstr "yıl"
+
+msgid "This directory contains %s element(s) totalling %s %s in size."
+msgstr "Bu dizin %s öğe içeriyor. Toplam boyut: %s %s"
+
+msgid "This directory contains no files."
+msgstr "Bu dizinde hiçbir dosya yok."
+
+msgid "%d %s ago"
+msgstr "%d %s önce"
+
+msgid "Directory listing for "
+msgstr "Dizin listeleme "
+
+msgid "Parent Directory"
+msgstr "Üst dizin"
+
+msgid "Back"
+msgstr "Geri"
+
+msgid "Home Directory"
+msgstr "Ana dizin"
+
+msgid "Reload"
+msgstr "Yenile"
+
+msgid "Search..."
+msgstr "Ara..."
+
+msgid "Search for \"%s\" in %s"
+msgstr "Aranan: \"%s\" Şurda: %s"
+
+msgid "Found %s element(s) totalling %s %s in size."
+msgstr "%s öğe bulundu. Toplam boyut: %s %s"
+
+msgid "No search result."
+msgstr "Aradığınız bulunamadı."
+
+msgid "not accesible"
+msgstr "erişilemez"
+
+msgid "Audio file"
+msgstr "Ses dosyası"
+
+msgid "Image file"
+msgstr "Resim dosyası"
+
+msgid "Application"
+msgstr "Uygulama"
+
+msgid "Web document"
+msgstr "Web belgesi"
+
+msgid "Text document"
+msgstr "Metin belgesi"
+
+msgid "Directory"
+msgstr "Dizin"
+
+msgid "Compressed package"
+msgstr "Sıkıştırılmış paket"
+
+msgid "Unknown file type"
+msgstr ""
+
+msgid "Name"
+msgstr "İsim"
+
+msgid "Last modification"
+msgstr "Son değiştirilme"
+
+msgid "Size"
+msgstr "Boyut"
+
+msgid "%s elements"
+msgstr ""
