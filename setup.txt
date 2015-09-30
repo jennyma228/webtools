@@ -121,4 +121,16 @@ ffmpeg -i video.mp4 -y -f mjpeg -ss 3 -t 0.004 -s 320x240 test.jpg
 MP3转换AMR： ffmpeg -i 1.mp3 -ac 1 -ar 8000 1.amr
 AMR转换MP3： ffmpeg -i 1.amr 1.mp3
 
+查找动态库加载位置
+ldd /usr/local/bin/ffmpeg
+
+qt-faststart安装方法：
+$ cd ffmpeg  
+$ ./configure  
+$ make tools/qt-faststart  
+$ cp -a tools/qt-faststart /usr/bin/ 
+使用qt-faststart来把meta信息移到文件头部.  解决视频边放边播的问题
+/usr/bin/qt-faststart a.mp4 b.mp4 
+
+ffmpeg -i input -strict -2 -vcodec libx264 -s 352x196  -b:v 256k output.mp4
 
