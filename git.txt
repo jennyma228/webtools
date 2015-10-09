@@ -11,4 +11,5 @@ git status --查看版本信息
 git add  --添加本地文件 
 git commit --提交更改 
 git push --tags --将更改推送到服务器 
+git config core.filemode false
 
