@@ -1,7 +1,7 @@
 default:	server
 
-server:	server.cpp
-	$(CC) server.cpp -o server -lpthread
+server:	server.c
+	$(CC) server.c -o server -lpthread
 
 clean:
 	rm -rf server

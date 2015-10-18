@@ -23,8 +23,10 @@
 //------------------------------------------------------------------------------
 // Include Files
 //------------------------------------------------------------------------------
+#define _GNU_SOURCE
 //#include "MTypes.h"
 #include <stdio.h>
+#include <sys/stat.h> 
 #include <unistd.h>
 #include <sys/time.h>
 
@@ -34,7 +36,6 @@
 //#include <sys/mman.h>// for file mmap()
 #include <fcntl.h> // for file open() ...
 #include <dirent.h> // for readdir()
-//#include <sys/stat.h> 
 
 //#include <dlfcn.h>
 
@@ -52,7 +53,6 @@
 #define MAXLINE 1024*10
 #define ITEM 3
 
-#include <fcntl.h>
 #include <errno.h>
 #include <error.h>
 
@@ -70,7 +70,7 @@
 #define UNUSED(x) x=x
 #endif
 
-#define MSG(fmt, args...)     {printf("server:");printf(fmt, ## args);}
+#define MSG(fmt, args...)     //{printf("server:");printf(fmt, ## args);}
 
 typedef struct
 {
@@ -130,7 +130,7 @@ struct timeval time_out;
 pthread_t id_lisent,id_recv[RECV_THREAD_NUM];
 
 stTransceiverData *TransceiverBuf = NULL;
-
+stTransceiverData *Transceiver[RECV_THREAD_NUM];
 //------------------------------------------------------------------------------
 // Public Function Prototypes
 //------------------------------------------------------------------------------
@@ -561,11 +561,12 @@ int _is_js(char *type)
 
 void* pthread_recv_socket(void *args)
 {
-    int connect_sock;
+    int connect_sock;int pth;
     stTransceiverData *pTRbuf = (stTransceiverData *)args;
 
     pthread_detach(pthread_self());
-    MSG("pthread_recv_socket %d is start!\n",(int)pthread_self());
+    pth=pthread_self();
+    printf("pthread_recv_socket %d is start!\n",pth);
     
     while (1)
     {
@@ -580,8 +581,10 @@ void* pthread_recv_socket(void *args)
         }
         pthread_mutex_unlock (&mutex);
 
-        if(connect_sock == _EXIT_)
+        if(connect_sock == _EXIT_){
+            printf("connect_sock == _EXIT_\n");
             break;
+        }
         //MSG("pthread_recv_socket %d is running!\n",(int)pthread_self());
 
         fcntl(connect_sock,F_SETFL,O_NONBLOCK);
@@ -596,7 +599,8 @@ void* pthread_recv_socket(void *args)
             stParserResult result;
             
             _head_parser(pTRbuf,&result);
-            
+            printf("[%d]=%s\n",pth,result.realname);
+           
             if(result.method == METHOD_GET)
             {   
                 int fd;
@@ -615,49 +619,132 @@ void* pthread_recv_socket(void *args)
                         int n;
                         if (_is_picture(result.filetype))        // file is a pitcure file
                         {
-                            char head[1024];
+                            char head[1024];int totle=0; struct stat fileStat;int try=0;
                             MSG("file is a pitcure file\n");
                             sprintf(head,"HTTP/1.1 200 OK\r\nContent-Type:image/%s\r\n\r\n",result.filetype);
                             write(connect_sock,head,strlen(head));
-                            while ((n = read(fd,pTRbuf->tx_buf,MAXLINE)) > 0)
-                                write(connect_sock,pTRbuf->tx_buf,n);
-                        }else if (_is_video(result.filetype))        // file is a video file 
-                        {
-                            char head[1024];int totle=0; struct stat fileStat;
-                            MSG("file is a video file\n");
-                            sprintf(head,"HTTP/1.1 200 OK\r\nContent-Type:video/%s\r\n\r\n",result.filetype);
-                            write(connect_sock,head,strlen(head));
-                            fileStat=stat(result.realname, &);
-                            MSG("filessize=%d\n",(int)fileStat.st_size);
+                            stat(result.realname, &fileStat);
+                            printf("filessize=%d\n",(int)fileStat.st_size);
                             while ((n = read(fd,pTRbuf->tx_buf,MAXLINE)) > 0){
                                 int w;
                                 w=write(connect_sock,pTRbuf->tx_buf,n);
-                                if(w<0){
-                                  lseek(fd,-n, SEEK_CUR);
-                                  continue;
-                                }if (w!=n){
-                                  lseek(fd,-(n-w), SEEK_CUR);
+                                if(w<0){int s;
+                                  //printf("w1=%d\n",w);
+                                  s=lseek(fd,-n, SEEK_CUR);
+                                  //printf("s1=%d\n",s);
+                                  //sleep(1);
+                                  usleep(1000);
+                                  if(++try>1000){
+                                    printf("timeout[%d]\n",pth);
+                                    break;
+                                  }
+                                  w=0;
+                                }else if (w!=n){int s;
+                                  //printf("w2=%d\n",w);
+                                  s=lseek(fd,-(n-w), SEEK_CUR);
+                                  //printf("s2=%d\n",s);
                                 }
                                 totle+=w;
-                                printf("[%d]*********************************\n",totle);
+                                //MSG("[%d]*",totle);
                             }
+                            printf("totle=%d\n",totle);
+                        }else if (_is_video(result.filetype))        // file is a video file 
+                        {
+                            char head[1024];int totle=0; struct stat fileStat;int try=0;
+                            MSG("file is a video file\n");
+                            sprintf(head,"HTTP/1.1 200 OK\r\nContent-Type:video/%s\r\n\r\n",result.filetype);
+                            write(connect_sock,head,strlen(head));
+                            stat(result.realname, &fileStat);
+                            printf("filessize=%d\n",(int)fileStat.st_size);
+                            while ((n = read(fd,pTRbuf->tx_buf,MAXLINE)) > 0){
+                                int w;
+                                w=write(connect_sock,pTRbuf->tx_buf,n);
+                                if(w<0){int s;
+                                  printf("w1=%d\n",w);
+                                  s=lseek(fd,-n, SEEK_CUR);
+                                  printf("s1=%d\n",s);
+                                  //sleep(1);
+                                  usleep(1000);
+                                  if(++try>1000){
+                                    printf("timeout[%d]\n",pth);
+                                    break;
+                                  }
+                                  w=0;
+                                }else if (w!=n){int s;
+                                  printf("w2=%d\n",w);
+                                  s=lseek(fd,-(n-w), SEEK_CUR);
+                                  printf("s2=%d\n",s);
+                                  usleep(1000);
+                                }else if (w==n){
+                                  try=0;
+                                }
+                                totle+=w;
+                                //MSG("[%d]*",totle);
+                            }
+                            printf("totle=%d\n",totle);
                         }else if (_is_audio(result.filetype))        // file is a audio file 
                         {
-                            char head[1024];
+                            char head[1024];int totle=0; struct stat fileStat;int try=0;
                             MSG("file is a audio file\n");
                             sprintf(head,"HTTP/1.1 200 OK\r\nContent-Type:audio/%s\r\n\r\n",result.filetype);
                             write(connect_sock,head,strlen(head));
-                            while ((n = read(fd,pTRbuf->tx_buf,MAXLINE)) > 0)
-                                write(connect_sock,pTRbuf->tx_buf,n);
+                            stat(result.realname, &fileStat);
+                            printf("filessize=%d\n",(int)fileStat.st_size);
+                            while ((n = read(fd,pTRbuf->tx_buf,MAXLINE)) > 0){
+                                int w;
+                                w=write(connect_sock,pTRbuf->tx_buf,n);
+                                if(w<0){int s;
+                                  //printf("w1=%d\n",w);
+                                  s=lseek(fd,-n, SEEK_CUR);
+                                  //printf("s1=%d\n",s);
+                                  //sleep(1);
+                                  usleep(10000);
+                                  if(++try>100){
+                                    printf("timeout[%d]\n",pth);
+                                    break;
+                                  }
+                                  w=0;
+                                }else if (w!=n){int s;
+                                  //printf("w2=%d\n",w);
+                                  s=lseek(fd,-(n-w), SEEK_CUR);
+                                  //printf("s2=%d\n",s);
+                                }
+                                totle+=w;
+                                //MSG("[%d]*",totle);
+                            }
+                            printf("totle=%d\n",totle);
 #if 1
                         }else if (_is_js(result.filetype))        // file is a js file 
                         {
-                            char head[1024];
+                            char head[1024];int totle=0; struct stat fileStat;int try=0;
                             MSG("file is a js file\n");
                             sprintf(head,"HTTP/1.1 200 OK\r\nContent-Type:%s\r\n\r\n","application/x-javascript");
                             write(connect_sock,head,strlen(head));
-                            while ((n = read(fd,pTRbuf->tx_buf,MAXLINE)) > 0)
-                                write(connect_sock,pTRbuf->tx_buf,n);
+                            stat(result.realname, &fileStat);
+                            printf("filessize=%d\n",(int)fileStat.st_size);
+                            while ((n = read(fd,pTRbuf->tx_buf,MAXLINE)) > 0){
+                                int w;
+                                w=write(connect_sock,pTRbuf->tx_buf,n);
+                                if(w<0){int s;
+                                  //printf("w1=%d\n",w);
+                                  s=lseek(fd,-n, SEEK_CUR);
+                                  //printf("s1=%d\n",s);
+                                  //sleep(1);
+                                  usleep(10000);
+                                  if(++try>100){
+                                    printf("timeout[%d]\n",pth);
+                                    break;
+                                  }
+                                  w=0;
+                                }else if (w!=n){int s;
+                                  //printf("w2=%d\n",w);
+                                  s=lseek(fd,-(n-w), SEEK_CUR);
+                                  //printf("s2=%d\n",s);
+                                }
+                                totle+=w;
+                                //MSG("[%d]*",totle);
+                            }
+                            printf("totle=%d\n",totle);
 #endif
                         }
                         else        // file is not a picture,deal it as html file type  
@@ -796,7 +883,7 @@ void* pthread_lisent_socket(void *args)
         if(res == 0)//time out
         {
             //MSG("time out,try again!\n");
-            sleep(1);
+            usleep(1000);
             continue;
         }
         else if(FD_ISSET(listen_sock,&rset))//accept
@@ -868,7 +955,8 @@ void httpd_start(void)
     int i;
     for(i = 0; i < RECV_THREAD_NUM;i++)
     {
-        pthread_create(&id_recv[i],NULL,pthread_recv_socket,(void *)TransceiverBuf);
+        Transceiver[i]=(stTransceiverData *)malloc(sizeof(stTransceiverData));
+        pthread_create(&id_recv[i],NULL,pthread_recv_socket,(void *)Transceiver[i]);
     }
 }
 
@@ -883,6 +971,8 @@ void httpd_stop(void)
     for(i = 0; i < RECV_THREAD_NUM;i++)
     {
         pthread_join(id_recv[i],&tret);
+        if(Transceiver[i] != NULL)
+            free(Transceiver[i]);
     }
     
     pthread_join(id_lisent,&tret);
