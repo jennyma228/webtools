@@ -1,15 +1,16 @@
-echo "# www" >> README.md
+ï»¿echo "# www" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/jennyma228/www.git
 git push -u origin master
 
-git init --³õÊ¼»¯ÏîÄ¿£¬¸Õ¿ªÊ¼³õÊ¼»¯ÏîÄ¿µÄÊ±ºòÊ¹ÓÃ 
-git clone --´Ó·şÎñÆ÷ÉÏ¿ËÂ¡µ½±¾µØ£¬Èç¹û·şÎñÆ÷ÉÏÃæÒÑ¾­ÓĞÏîÄ¿ÁË£¬Ö±½ÓÊ¹ÓÃÕâ¸öÃüÁîcloneµ½±¾µØ½øĞĞÊ¹ÓÃ¡£ 
-git status --²é¿´°æ±¾ĞÅÏ¢ 
-git add  --Ìí¼Ó±¾µØÎÄ¼ş 
-git commit --Ìá½»¸ü¸Ä 
-git push --tags --½«¸ü¸ÄÍÆËÍµ½·şÎñÆ÷ 
+git init --åˆå§‹åŒ–é¡¹ç›®ï¼Œåˆšå¼€å§‹åˆå§‹åŒ–é¡¹ç›®çš„æ—¶å€™ä½¿ç”¨ 
+git clone --ä»æœåŠ¡å™¨ä¸Šå…‹éš†åˆ°æœ¬åœ°ï¼Œå¦‚æœæœåŠ¡å™¨ä¸Šé¢å·²ç»æœ‰é¡¹ç›®äº†ï¼Œç›´æ¥ä½¿ç”¨è¿™ä¸ªå‘½ä»¤cloneåˆ°æœ¬åœ°è¿›è¡Œä½¿ç”¨ã€‚ 
+git status --æŸ¥çœ‹ç‰ˆæœ¬ä¿¡æ¯ 
+git add  --æ·»åŠ æœ¬åœ°æ–‡ä»¶ 
+git commit --æäº¤æ›´æ”¹ 
+git push --tags --å°†æ›´æ”¹æ¨é€åˆ°æœåŠ¡å™¨ 
 git config core.filemode false
 
+g
